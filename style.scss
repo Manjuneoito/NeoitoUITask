@@ -1,0 +1,35 @@
+body {
+}
+.project {
+  background-color: #f2f4fb;
+  font-family: poppins;
+  .active {
+    background-color: white;
+    color: #17181a;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.05);
+  }
+  .btns:hover {
+    background-color: white;
+    color: #17181a;
+  }
+  &black-color {
+    color: #17181a;
+  }
+  &__header {
+    color: #06070d;
+  }
+  &__card {
+    &-button1 {
+      background-color: #5457f4;
+      &:hover {
+        background-color: #0b0eec;
+      }
+    }
+    &-button2 {
+      background-color: #44c8d7;
+      &:hover {
+        background-color: #3b9aa5;
+      }
+    }
+  }
+}

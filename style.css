@@ -1,0 +1,41 @@
+.project {
+  background-color: #f2f4fb;
+  font-family: poppins;
+}
+
+.project .active {
+  background-color: white;
+  color: #17181a;
+  -webkit-box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.05);
+}
+
+.project .btns:hover {
+  background-color: white;
+  color: #17181a;
+}
+
+.projectblack-color {
+  color: #17181a;
+}
+
+.project__header {
+  color: #06070d;
+}
+
+.project__card-button1 {
+  background-color: #5457f4;
+}
+
+.project__card-button1:hover {
+  background-color: #0b0eec;
+}
+
+.project__card-button2 {
+  background-color: #44c8d7;
+}
+
+.project__card-button2:hover {
+  background-color: #3b9aa5;
+}
+/*# sourceMappingURL=style.css.map */
