@@ -1,6 +1,26 @@
+body {
+  background-color: #f6f9fa;
+}
+
+body::-webkit-scrollbar,
+body ::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb,
+body ::-webkit-scrollbar-thumb {
+  width: 10px;
+  border-radius: 13px;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+  background: #dddbdb;
+}
+
 .project {
   background-color: #f2f4fb;
   font-family: poppins;
+  width: 375px;
+  height: 812px;
 }
 
 .project .active {
@@ -37,5 +57,34 @@
 
 .project__card-button2:hover {
   background-color: #3b9aa5;
+}
+
+.project .edit {
+  display: none;
+}
+
+.project .nav-bar {
+  width: 375px;
+  height: 72px;
+}
+
+.project div svg:hover {
+  stroke: #5457f4;
+  opacity: 2;
+}
+
+.project div svg:hover {
+  fill: #5457f4;
+  opacity: 2;
+}
+
+.project div svg path:hover {
+  stroke: #5457f4;
+  opacity: 2;
+}
+
+.project div svg path:hover {
+  fill: #5457f4;
+  opacity: 2;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,8 +1,26 @@
 body {
+  background-color: #f6f9fa;
+  &::-webkit-scrollbar,
+  ::-webkit-scrollbar {
+    width: 10px;
+    &-track {
+      // background-color: transparent;
+      // box-shadow: inset 0 0 5px #00a4b7;
+    }
+    &-thumb {
+      width: 10px;
+      border-radius: 13px;
+      background-clip: padding-box;
+      border: 2px solid transparent;
+      background: rgb(221, 219, 219);
+    }
+  }
 }
 .project {
   background-color: #f2f4fb;
   font-family: poppins;
+  width: 375px;
+  height: 812px;
   .active {
     background-color: white;
     color: #17181a;
@@ -29,6 +47,35 @@ body {
       background-color: #44c8d7;
       &:hover {
         background-color: #3b9aa5;
+      }
+    }
+  }
+  .edit {
+    display: none;
+  }
+  .nav-bar {
+    width: 375px;
+    height: 72px;
+  }
+  div {
+    svg {
+      &:hover {
+        stroke: #5457f4;
+        opacity: 2;
+      }
+      &:hover {
+        fill: #5457f4;
+        opacity: 2;
+      }
+      path {
+        &:hover {
+          stroke: #5457f4;
+          opacity: 2;
+        }
+        &:hover {
+          fill: #5457f4;
+          opacity: 2;
+        }
       }
     }
   }
