@@ -3,10 +3,6 @@ body {
   &::-webkit-scrollbar,
   ::-webkit-scrollbar {
     width: 10px;
-    &-track {
-      // background-color: transparent;
-      // box-shadow: inset 0 0 5px #00a4b7;
-    }
     &-thumb {
       width: 10px;
       border-radius: 13px;
@@ -21,6 +17,12 @@ body {
   font-family: poppins;
   width: 375px;
   height: 812px;
+  @media (max-width: 374px) {
+    width: 275px;
+  }
+  @media (max-height: 811px) {
+    height: 640px;
+  }
   .active {
     background-color: white;
     color: #17181a;
@@ -53,9 +55,18 @@ body {
   .edit {
     display: none;
   }
+  .add {
+    left: 144px;
+    @media (max-width: 374px) {
+      left: 100px;
+    }
+  }
   .nav-bar {
     width: 375px;
     height: 72px;
+    @media (max-width: 374px) {
+      width: 275px;
+    }
   }
   div {
     svg {

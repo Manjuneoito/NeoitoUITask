@@ -23,6 +23,18 @@ body ::-webkit-scrollbar-thumb {
   height: 812px;
 }
 
+@media (max-width: 374px) {
+  .project {
+    width: 275px;
+  }
+}
+
+@media (max-height: 811px) {
+  .project {
+    height: 640px;
+  }
+}
+
 .project .active {
   background-color: white;
   color: #17181a;
@@ -63,9 +75,25 @@ body ::-webkit-scrollbar-thumb {
   display: none;
 }
 
+.project .add {
+  left: 144px;
+}
+
+@media (max-width: 374px) {
+  .project .add {
+    left: 100px;
+  }
+}
+
 .project .nav-bar {
   width: 375px;
   height: 72px;
+}
+
+@media (max-width: 374px) {
+  .project .nav-bar {
+    width: 275px;
+  }
 }
 
 .project div svg:hover {
