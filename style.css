@@ -35,6 +35,12 @@ body ::-webkit-scrollbar-thumb {
   }
 }
 
+@media (max-height: 600px) {
+  .project {
+    height: 500px;
+  }
+}
+
 .project .active {
   background-color: white;
   color: #17181a;
